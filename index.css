@@ -44,9 +44,6 @@ body{
     color: #080808;
     text-transform: uppercase;
 }
-.cls ul li a:hover{
-    color:red;
-    text-decoration:underline;
 
 .cls ul li::after{
     content: '';
@@ -117,5 +114,5 @@ button:hover span{
 }
 
 button:hover {
-    border: none;
+   boder:none;
 }
