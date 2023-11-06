@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+img{
+    width: 8%;
+    padding: 10px 0px;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: 1px solid rgba(0,0,0,0.1) ;
+    width: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 1rem;
+}
+.input input,button {
+    border-radius: 3px;
+    width: 96%;
+    padding: 0.5rem 5px ;
+    outline: 0;
+    border: 1px solid grey;
+}
+.input button{
+    background-color: rgb(255, 204, 0);
+    width: 100%;
+    border-radius: 8px;
+     margin: 10px 0px;
+    cursor:pointer;
+    border: 0px;
+    padding: 0.5rem 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(88, 88, 237);
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+input:focus{
+    box-shadow: 0px 0px 5px 1px rgb(61, 200, 255);
+    border: 1px solid rgb(61, 200, 255);
+}
+p{
+    margin: 15px 0px;
+    color: rgb(56, 56, 56);
+}
+ /* p{
+    opacity: 0.5;
+} */
+button{
+    cursor:pointer;
+    width: 23%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+/* button + a{
+    text-decoration: none;
+} */
+.input label{
+    font-weight: 700;
+}
+footer{
+    height: 15vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.foot{
+    /* width:40% ; */
+    /* padding: 10px; */
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.3rem;
+    /* position: relative;
+    left:35%; */
+}
+.footer a,i{
+    opacity: 0.7;
+}
+#black{
+    color: black;
+}
+
+@media(max-width: 1100px)
+{
+    main img{
+        width: 30%;
+    }
+    main .signin{
+        width: 40%;
+    }
+}
+@media(max-width: 600px)
+{
+    main img{
+        width: 30%;
+    }
+    main .signin{
+        width: 90%;
+    }
+}
